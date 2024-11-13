@@ -1,0 +1,10 @@
+//Escreva um programa para ler o número de eleitores de um município e calcular quantos votos garantem que um candidato vença no primeiro turno (deve ser mais do que 50%).//
+#include<stdio.h>
+
+main () {
+    int eleitores, primeiroturno;
+    printf ("Digite o numero de eleitos de seu municipio:\n");
+    scanf ("%d", &eleitores);
+    primeiroturno = (eleitores / 2) + 1;
+    printf("a quantidade de votos para ganhar o primeiro turno é %d\n", primeiroturno);
+}
